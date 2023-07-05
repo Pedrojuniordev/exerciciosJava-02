@@ -1,9 +1,14 @@
 package aprender;
 
-public class exibir {
+import java.util.Scanner;
 
-	public exibir() {
-		// TODO Auto-generated constructor stub
+public class exibir {
+		
+	public static void main(String[] args) {
+		
+		System.out.println("Olá mundo");
+		
 	}
+	
 
 }
