@@ -7,15 +7,19 @@ public class positivoNegativo {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);
-		int numero;
-		System.out.print("\n\t Informe um valor número: ");
-		numero = in.nextInt();
 		
-		if (numero <0) {
-			numero = negativo;
-			
-		}
+		float num;
+		System.out.print("\n\t Digite um número: ");
+		num = in.nextFloat();
+		
+		boolean return = isPositive(num);
+		if  (return == true){
+			System.out.println("\n\t O número é positivo");
+		} else {
+			System.out.println("\n\t O número é negativo");
+		
+	}		
 	}
 	
-
 }
+
